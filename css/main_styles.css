@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document FOR ALL STYLES*/
+
+* {
+	
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: arial, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+html, body{
+	
+
+	background-image: linear-gradient(to right,#101622, #1f3044);
+	align-items: center;
+
+}
+
+.page-wrapper {
+	min-height: 100%;
+	align-items: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+h3 {
+	font-size: 9px;
+	color: white;
+}
+
+li { 
+	color: white;
+	
+}

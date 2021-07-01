@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document FOR NAVIGATION BAR */
+
+
+
+nav {
+	
+	background-color: #171a21;
+	height: 130px;
+	width: 100%;
+	
+	
+}
+nav ul li ul {
+	display: none;
+	overflow: visible;
+	position: absolute;
+	background-color: #171a21;
+	padding: 10px;
+	border-radius: 0px 0px 11px 11px;
+	top: 80px;
+	position: fixed;
+	z-index: 2;
+
+}
+
+nav ul {
+	float: right;
+	margin: 20px auto;
+	margin-right: 50px;
+	
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+	
+}
+
+
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	text-transform: uppercase;
+	padding: 7px 13px;
+	border-radius: 3px;
+}
+
+
+nav ul li a:hover{
+opacity: 55%;
+	background-color: darkslategrey;
+	width: 100px;
+	transition: 1s;
+}
+
+
+nav ul li ul a:hover {
+	opacity: 55%;
+	background-color: darkslategrey;
+	width: 100px;
+	transition: 1s;
+
+}
+
+nav ul li:hover ul {
+	display: block;
+	position: absolute;
+
+}
+
+nav ul li ul li {
+	width: 30px;
+	margin: 13%;
+	height: 20px;
+	border-radius: 4px;
+
+}
+
+
+
+.main-logo{
+
+	width: 100px;
+	margin: 35px;
+	float: left;
+	margin-left: 100px;
+}
+
+ img .main-logo{
+	margin-left: 250px;
+	position: relative;	
+	height: auto;
+}
+
+
+

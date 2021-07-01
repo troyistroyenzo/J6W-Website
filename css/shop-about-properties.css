@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.content-container {
+	width: 100%;
+	height: 2400px;
+	background-image: linear-gradient(#182a40, #1c2023)
+
+}
+
+.content-container .product{
+	width: 100%;
+	height: 500px;
+	margin-bottom: 10px;
+	padding: 50px;
+	color: white;
+}
+
+.content-container .product h1{
+	margin-left: 100px;
+	font-size: 50px;
+	margin-left: 34px;
+	margin-right: 74px;
+	text-shadow: skyblue 0 0 10px;
+
+}
+.content-container .product p{
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-top: 40px;
+	line-height: 40px;
+
+}
+

@@ -1,0 +1,95 @@
+
+@charset "UTF-8";
+/* CSS Document */
+
+.box-container .product{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+	padding: 50px;
+	color: white;
+}
+
+.box-container .product h1{
+	margin-left: 100px;
+	font-size: 20px;
+	margin-left: 34px;
+	margin-right: 74px;
+	text-shadow: skyblue 0 0 3px;
+
+}
+.box-container .product p{
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-top: 40px;
+	line-height: 40px;
+	color: skyblue;
+
+}
+
+
+fieldset {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	padding: 20px;
+	width: 70%;
+	background-color: rgba(0, 155, 225, 0.1);
+	color: white;
+}
+
+legend { 
+	color: black;
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 20px;
+	color: skyblue;
+}
+
+p {
+	font-size: 15px;
+	color: #c6d4df;
+	padding-bottom: 10px;
+}
+
+input {
+	background-color: #324965;
+	border: 10px #44566a;
+	height: 30px;
+	color: white;
+	font-size: 15px;
+	padding: 10px;
+	
+}
+
+textarea {
+	background-color: #445468;
+	color: white;
+	font-size: 15px;
+}
+
+select {
+	height: 20px;
+	width: 100px;
+	background-color: #445468;
+	font-size: 15px;
+	color: white;
+}
+
+
+button{
+	background-color: #21435b;
+	width: 100px;
+	height: 40px;
+}
+
+button p{
+	color: greenyellow;
+	padding-top: 10px;
+	font-size: 15px;
+}
+
+
+
